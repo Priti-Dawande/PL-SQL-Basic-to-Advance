@@ -10,3 +10,4 @@ BEGIN
  DBMS_OUTPUT.PUT_LINE('You Just Deleted a Row Mr.'|| v_user); 
 END;
 /
+delete from superheroes where id=1;
