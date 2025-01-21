@@ -10,3 +10,4 @@ BEGIN
  DBMS_OUTPUT.PUT_LINE('You Just Updated a Row Mr.'|| v_user); 
 END;
 /
+update superheroes set name='ram' where id=1;
